@@ -103,7 +103,7 @@ case 0  :
 out = "African American Studies";
 break;
 case 1 :
-out = "African ans Middle Eastern Studies";
+out = "African and Middle Eastern Studies";
 break;
 case 2 :
 out = "American Indian Studies";
@@ -112,7 +112,7 @@ case 3 :
 out ="American Literature and Culture";
 break;
 case 4 :
-out = "Ancient Near Eat and Egyptology";
+out = "Ancient Near East and Egyptology";
 break;
 case 5 :
 out = "Asian American Studies";
@@ -121,7 +121,7 @@ case 6 :
 out = "Asian Studies";
 break;
 case 7 :
-out = "Central and Eadt European Languages and Cultures";
+out = "Central and East European Languages and Cultures";
 break;
 case 8 :
 out = "Chicana and Chicano Studies";
