@@ -61,11 +61,4 @@ margin-right: 46%
 .dropdown:hover .dropdown-content {
     display: block;
 }
-</style>
 
-<div class="dropdown">
-  <span>Find a new major!</span>
-  <div class="dropdown-content">
-    <p>Because you gave up!</p>
-  </div>
-</div>
