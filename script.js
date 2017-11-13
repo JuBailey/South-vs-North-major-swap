@@ -13,7 +13,8 @@ var majorPoints = {
   "environmental" : 0
 }
 
-//class points
+//class points 
+
 majorPoints["history"]+=document.getElementById("Physics1C").checked;
 majorPoints["history"]+=document.getElementById("Chem20L").checked;
 majorPoints["intellectual"]+=document.getElementById("CS31").checked;
@@ -88,13 +89,14 @@ for (var key in majorPoints) {
   }
 }
 
+  
 switch (maxMajor)
 {
-case: "history"
+  case "history" :
 
 randint = Math.floor(Math.random() * 23);
 
-switch (randint)
+switch(randint)
 {
 
 case 0  : 
@@ -112,7 +114,7 @@ break;
 case 4 :
 out = "Ancient Near Eat and Egyptology";
 break;
-case 5  :
+case 5 :
 out = "Asian American Studies";
 break;
 case 6 :
@@ -172,10 +174,10 @@ default: out = "Drop out"
 }
 
 break;
-case: "intellectual"
+  case "intellectual" :
 randint = Math.floor(Math.random() * 7);
 
-switch (randint)
+switch(randint)
 {
 
 case 0:
@@ -212,10 +214,10 @@ break;
 
 
 break;
-case: "arts/media"
+  case "arts/media" :
 randint = Math.floor(Math.random() * 9);
 
-switch (randint)
+switch(randint)
 {
 
 case 0:
@@ -261,10 +263,10 @@ break;
 
 
 break;
-case: "money"
+  case "money" :
 randint = Math.floor(Math.random() * 4);
 
-switch (randint)
+switch(randint)
 {
 
 case 0: out = "Business Economics"; 
@@ -283,7 +285,7 @@ break;
 
 
 break;
-case: "environmental"
+  case "environmental" :
 randint = Math.floor(Math.random() * 5);
 
 switch (randint)
@@ -314,9 +316,10 @@ break;
 }  
   
   
+ 
   
 //out = maxMajor;
-out = randomNumber; 
+//out = 5; 
 document.getElementsByName('output')[0].value= out;
-
+ 
 }
